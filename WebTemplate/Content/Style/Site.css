@@ -1,0 +1,84 @@
+﻿@import "variables.css";
+
+body {
+    background-color:rgba(0, 0, 0, 0.85);
+    margin: var(--body-default-marginpadding);
+    padding: var(--body-default-marginpadding);
+    overflow: hidden;
+}
+
+    body .mainbgimage {
+        position:absolute;
+        object-fit:fill;
+        max-height:100%;
+        min-width:100%;
+        z-index:1;
+    }
+.logo {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    color: var(--logo-text-color);
+    font-size: var(--logo-text-size);
+    font-family: Raleway-Heavy;
+    font-weight: bolder;
+    z-index: 2;
+}
+
+.pagewrapper {
+    position: absolute;
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: space-around;
+    top: var(--pagewrapper-top);
+    width: var(--pagewrapper-width);
+    height: var(--pagewrapper-height);
+    background-color: rgba(0, 0, 0, 0.45);
+    z-index: 2;
+}
+
+.navigation {
+    position:relative;
+    display:flex;
+    flex-flow:column;
+    justify-content:space-around;
+    top:var(--navigation-position-top);
+    height: var(--navigation-size-height);
+    width: var(--navigation-size-width);
+}
+
+     .navigation .nav ul {
+        list-style-type:none;
+    }
+        .navigation .nav ul li {
+            margin-top: var(--list-li-padding-updown);
+            margin-bottom: var(--list-li-padding-updown);
+            font-weight: var(--list-font-weight);
+            font-size: var(--list-text-size);
+            font-family: Raleway-Regular;
+            text-align:center
+        }
+
+        .navigation .nav ul li:hover {
+            background:rgba(0, 0, 0, 0.30);
+        }
+
+            .navigation .nav ul li.active {
+                background: rgba(0, 0, 0, 0.30);
+            }
+
+            .navigation .nav ul li a,
+            .navigation .nav ul li a:hover,
+            .navigation .nav ul li a:active,
+            .navigation .nav ul li a:visited {
+                display: block;
+                width: 100%;
+                height: 100%;
+                padding-top: var(--list-li-padding-updown);
+                padding-bottom: var(--list-li-padding-updown);
+                color: white;
+                text-decoration: none;
+            }

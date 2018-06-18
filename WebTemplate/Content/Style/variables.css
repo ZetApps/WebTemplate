@@ -1,0 +1,39 @@
+﻿@font-face {
+    font-family: "Raleway-Regular";
+    src: url("../../fonts/Raleway-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Raleway-Thin";
+    src: url("../../fonts/Raleway-Thin.ttf");
+}
+
+@font-face {
+    font-family: "Raleway-Heavy";
+    src: url("../../fonts/Raleway-Heavy.ttf");
+}
+
+
+:root {
+    --body-default-marginpadding: 0;
+
+    --pagewrapper-width: 100vw;
+    --pagewrapper-height: 60vh;
+    --pagewrapper-top: 20vh;
+
+    --contactwrapper-width: 100%;
+    --contactwrapper-height: 100%;
+
+    --navigation-size-height: 80%;
+    --navigation-size-width: 30%;
+    --navigation-position-top: 10%;
+
+    --list-li-padding-updown: 8px;
+    --list-text-size: 30px;
+    --list-font-weight: thin;
+
+    --logo-text-size: 60px;
+    --logo-text-color: rgba(0, 0, 0, 0.6);
+
+    --image-bg-main-1: url(../img/bg_1.jpg);
+}
