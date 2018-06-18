@@ -20,10 +20,12 @@ Public Module BundleConfig
 
         bundles.Add(New StyleBundle("~/Content/maincss").Include(
                   "~/Content/bootstrap/bootstrap.css",
+                  "~/Content/Style/common.css",
                   "~/Content/Style/Site.css"))
 
         bundles.Add(New StyleBundle("~/Content/contactcss").Include(
                   "~/Content/bootstrap/bootstrap.css",
+                  "~/Content/Style/common.css",
                   "~/Content/Style/contact.css"))
     End Sub
 End Module

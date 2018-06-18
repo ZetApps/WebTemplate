@@ -221,6 +221,7 @@
     <Content Include="Content\bootstrap\bootstrap.css" />
     <Content Include="Content\bootstrap\bootstrap.min.css" />
     <None Include="Content\img\nologo.jpg" />
+    <Content Include="Content\Style\common.css" />
     <Content Include="Content\Style\contact.css" />
     <Content Include="Content\Style\variables.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />

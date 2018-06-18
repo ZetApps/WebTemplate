@@ -23,6 +23,8 @@
 
     --contactwrapper-width: 100%;
     --contactwrapper-height: 100%;
+    --contactwrapper-content-top: 15%;
+    --contactwrapper-content-height: 80%;
 
     --navigation-size-height: 80%;
     --navigation-size-width: 30%;
