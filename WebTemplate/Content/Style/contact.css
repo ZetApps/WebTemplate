@@ -1,4 +1,4 @@
-﻿@import "variables.css";
+@import "variables.css";
 
 .pagewrapper {
     width: var(--contactwrapper-width);
@@ -6,9 +6,9 @@
 }
 
     .pagewrapper .content {
-        position:relative;
-        top:var(--contactwrapper-content-top);
-        height:var(--contactwrapper-content-height);
+        position: relative;
+        top: var(--contactwrapper-content-top);
+        height: var(--contactwrapper-content-height);
     }
 
     .pagewrapper .content {
@@ -18,7 +18,7 @@
         width: 60%;
         padding: 20px;
         font-family: Raleway-Regular;
-        font-size: 15px;
+        font-size: 20px;
         color: white;
     }
 
@@ -27,3 +27,30 @@
             font-size: 16px;
             color: white;
         }
+
+        .pagewrapper .content .sectionContact {
+            display:flex;
+            flex-flow:row wrap;
+            justify-content:space-around;
+        }
+
+            .pagewrapper .content .sectionContact .contact {
+                border: 1px solid black;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 15px;
+                padding-right: 15px;
+                margin-top: 15px;
+                margin-bottom: 15px;
+                margin-left: 1%;
+                margin-right: 1%;
+            }
+
+                .pagewrapper .content .sectionContact .contact .title {
+                    font-size:25px;
+                    font-family:Raleway-Heavy;
+                }
+
+                .pagewrapper .content .sectionContact .contact .text, .pagewrapper .content .sectionContact .contact .email {
+                    font-size: 20px;
+                }
