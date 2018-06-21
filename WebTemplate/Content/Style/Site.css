@@ -5,3 +5,20 @@
     width: var(--pagewrapper-width);
     height: var(--pagewrapper-height);
 }
+
+.content {
+    position: relative;
+    top:10%;
+    height: 80%;
+    width: 60%;
+    padding:20px;
+    font-family:Raleway-Regular;
+    font-size:15px;
+    color:white;
+}
+
+    .content .header {
+        font-family:Raleway-Heavy;
+        font-size:16px;
+        color:white;
+    }

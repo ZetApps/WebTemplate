@@ -1,5 +1,5 @@
 ﻿@Section Index
     <div class="section1">
-        SECTION ONE!!
+        @ViewData("contentText")
     </div>
 End Section
